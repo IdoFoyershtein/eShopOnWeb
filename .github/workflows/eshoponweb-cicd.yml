@@ -8,7 +8,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-eshoponweb-ido
   LOCATION: westeurope
-  TEMPLATE-FILE: .azure/bicep/webapp.bicep
+  TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 49aa14f5-2c30-46e5-ac11-ea4fa5d09a15
   WEBAPP-NAME: eshoponweb-webapp-ido
 
